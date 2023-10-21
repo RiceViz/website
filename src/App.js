@@ -1,12 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import Navbar from './Components/Navbar';
-import CodeSpace from './Components/CodeSpace';
+//import CodeSpace from './Components/CodeSpace';
 import HeroPage from './images/5184157.jpg';
-
-const page = "Game Projects";
+import GamePage from './Pages/GamePage';
+import ModelingPage from './Pages/ModelingPage';
+import SoftwareDevPage from './Pages/SoftwareDevPage';
 
 function App() {
+
+  const [page, setPage] = useState("Game Projects"); 
+
   return (
     <div className="App">
       {/*Nav Bar + Hero Page*/}
@@ -29,23 +33,52 @@ function App() {
         {/*Coding Animation - NOT YET IMPLEMENTED*/}
         {/*<CodeSpace></CodeSpace>*/}
       </div>
-      <div className="border-black border-y-2 bg-gray-400 h-36">
+      <div className="border-black border-y-2 bg-slate-400 h-36">
         <h1 className="text-5xl text-middle font-serif text-black text-middle pt-2">
           Projects
         </h1>
-        <span className="relative container mx-auto px-4 pt-8 text-l flex gap-x-40 items-center justify-center text-xl text-middle font-serif text-black">
-          {/*Buttons To Change Page - NOT YET IMPLEMENTED*/}
+        <span className="relative container mx-auto px-4 pt-8 text-l flex gap-x-24 items-center justify-center text-xl text-middle font-serif text-black">
+          {/*Buttons To Change Page*/}
           <div>
-            Game Projects
+            <button className="hover:rounded-md hover:bg-white" 
+                    type="button" 
+                    onClick={() => setPage("Game Projects")}>
+               Game Projects 
+            </button>
           </div>
           <div>
-            Software Dev Projects
+          <button className="hover:rounded-md hover:bg-white" 
+                    type="button" 
+                    onClick={() => setPage("Software Dev Projects")}>
+               Software Dev Projects 
+            </button>
           </div>
           <div>
-            Modeling Portfolio
+          <button className="hover:rounded-md hover:bg-white m-4" 
+                    type="button" 
+                    onClick={() => setPage("Modeling Portfolio")}>
+               Modeling Portfolio 
+            </button>
           </div>
         </span>
       </div>
+      <br></br>
+      {/*Page Types*/}
+      {page === "Game Projects" ? (
+        <div>
+          <GamePage></GamePage>
+        </div>
+      ) : null}
+      {page === "Software Dev Projects" ? (
+        <div>
+          {/*<SoftwareDevPage></SoftwareDevPage>*/}
+        </div>
+      ) : null}
+      {page === "Modeling Portfolio" ? (
+        <div>
+          {/*<ModelingPage></ModelingPage>*/}
+        </div>
+      ) : null}
     </div>
   );
 }
