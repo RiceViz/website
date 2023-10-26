@@ -5,7 +5,7 @@ import Navbar from './Components/Navbar';
 import HeroPage from './images/5184157.jpg';
 import GamePage from './Pages/GamePage';
 import ModelingPage from './Pages/ModelingPage';
-import SoftwareDevPage from './Pages/SoftwareDevPage';
+import SoftwareDevelopmentPage from './Pages/SoftwareDevelopmentPage';
 
 function App() {
 

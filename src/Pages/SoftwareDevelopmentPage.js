@@ -1,6 +1,6 @@
 import React from "react";
 
-function SoftwareDevPage() {
+function SoftwareDevelopmentPage() {
 
     return(
         <div>
@@ -12,4 +12,4 @@ function SoftwareDevPage() {
     );
 }
 
-export default SoftwareDevPage;
+export default SoftwareDevelopmentPage;
