@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
       {/*Nav Bar + Hero Page*/}
-      <div className="NavBar + HeroPage h-screen space-y-2" style={{
+      <div id="home" className="NavBar + HeroPage h-screen space-y-2" style={{
                 backgroundImage: `url(${HeroPage})`,
                 backgroundSize: "cover"
             }}>
@@ -34,7 +34,7 @@ function App() {
         {/*<CodeSpace></CodeSpace>*/}
       </div>
       <div className="border-black border-y-2 bg-slate-400 h-36">
-        <h1 className="text-5xl text-middle font-serif text-black text-middle pt-2">
+        <h1 id="projects" className="text-5xl text-middle font-serif text-black text-middle pt-2">
           Projects
         </h1>
         <span className="relative container mx-auto px-4 pt-8 text-l flex gap-x-24 items-center justify-center text-xl text-middle font-serif text-black">
@@ -79,6 +79,10 @@ function App() {
           {/*<ModelingPage></ModelingPage>*/}
         </div>
       ) : null}
+      {/*Footer*/}
+      <div className="border-black border-y-2 bg-gray-300 h-16">
+        <Navbar></Navbar>        
+      </div>
     </div>
   );
 }

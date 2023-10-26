@@ -1,18 +1,59 @@
-import React from "react";
+import React, { useState } from "react";
 import { DarkMode } from "../Components/DarkMode.js";
+import { Link } from "react-scroll"
 
 function Navbar() {
 
+	const [click, setClick] = useState(false);
+	const closeMenu = () => setClick(false);
+
 	return (
-			<nav class="relative container mx-auto pl-6 pr-6 pt-6 font-serif text-black">
-				<p class="flex items-center justify-between">
+			<nav className="relative container mx-auto pl-6 pr-6 pt-6 font-serif text-black">
+				<p className="flex item-center justify-between">
 					LOGO
 					{/*Navigation Items*/}
-					<span class="hidden md:flex space-x-6">
-						<a href='/home' class="hover:text-cyan-600">Home</a>
-						<a href='/aboutme' class="hover:text-cyan-600">About Me</a>
-						<a href='/projects' class="hover:text-cyan-600">Projects</a>
-						<a href='/contact' class="hover:text-cyan-600">Contacts</a>
+					<span className="hidden md:flex space-x-6">
+						<Link 
+
+								to="home"
+								spy={true}
+								smooth={true}
+								offset={0}
+								duration={700}								
+								className="hover:text-cyan-600"
+								onClick={closeMenu}>
+							Home
+						</Link>
+						<Link 
+								to="projects"
+								spy={true}
+								smooth={true}
+								offset={0}
+								duration={700}								
+								className="hover:text-cyan-600"
+								onClick={closeMenu}>
+							Projects
+						</Link>
+						<Link 
+								to="about"
+								spy={true}
+								smooth={true}
+								offset={0}
+								duration={700}								
+								className="hover:text-cyan-600"
+								onClick={closeMenu}>
+							About Me
+						</Link>
+						<Link 
+								to="contact"
+								spy={true}
+								smooth={true}
+								offset={0}
+								duration={700}								
+								className="hover:text-cyan-600"
+								onClick={closeMenu}>
+							Contact
+						</Link>
 						<span class="ml-6">
 							<DarkMode></DarkMode>
 						</span>
