@@ -66,13 +66,13 @@ const pictureData = [
         image: require('../images/modelingpictures/Outfit1/_DSC2433.jpg')
     },
 ]
-
+/**
 function Image(list) {
    list.forEach(element => {
     element.image
    });
 }
-
+**/
 function ModelingPage() {
 
     return(
