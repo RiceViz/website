@@ -12,6 +12,9 @@ function GameDesignPage() {
                     First-Person Arena Shooter
                     </p>
                 </span>
+                <span className="text-center font-sans text-8xl justify-center">
+                    WIP
+                </span>
         </div>
         <br className="h-16"></br>
         <br className="h-16"></br>

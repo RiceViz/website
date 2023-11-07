@@ -23,12 +23,12 @@ function App() {
         <br></br>
         <span className="relative container mx-auto px-4 pr-24 pb-8 flex items-center justify-between">
           {/*Hero Page*/}
-          <h1 className="text-left text-5xl font-serif text-black">
+          <h1 className="text-left text-5xl font-serif text-black border-y-4 border-black border-double">
             Welcome To 
             <div className="h-4"></div>
             Tyran Rice Jr's Portfolio
           </h1>
-          <img src="./IMG_5692.jpeg" alt='Headshot' width="213" height="320" className="border-black border-2 rounded"></img>
+          <img src={require('./images/IMG_5692.jpeg')} alt='Headshot' width="213" height="320" className="border-black border-2 rounded"></img>
         </span>
         {/*Coding Animation - NOT YET IMPLEMENTED*/}
         {/*<CodeSpace></CodeSpace>*/}
