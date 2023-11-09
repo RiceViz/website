@@ -10,7 +10,7 @@ function Navbar() {
 	return (
 			<nav className="relative container mx-auto pl-6 pr-6 pt-6 font-serif text-black">
 				<p className="flex item-center justify-between">
-					LOGO
+					PLACEHOLDER
 					{/*Navigation Items*/}
 					<span className="hidden md:flex space-x-6">
 						<Link 

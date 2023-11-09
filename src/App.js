@@ -4,8 +4,8 @@ import Navbar from './Components/Navbar';
 //import CodeSpace from './Components/CodeSpace';
 import HeroPage from './images/5184157.jpg';
 import GamePage from './Pages/GamePage';
-//import ModelingPage from './Pages/ModelingPage';
-//import SoftwareDevelopmentPage from './Pages/SoftwareDevelopmentPage';
+import ModelingPage from './Pages/ModelingPage';
+import SoftwareDevPage from './Pages/SoftwareDevelopmentPage';
 
 function App() {
 
@@ -37,7 +37,7 @@ function App() {
         <h1 id="projects" className="text-5xl text-middle font-serif text-black text-middle pt-2">
           Projects
         </h1>
-        <span className="relative container mx-auto px-4 pt-8 text-l flex gap-x-24 items-center justify-center text-xl text-middle font-serif text-black">
+        <span className="relative container mx-auto px-4 pt-6 text-l flex gap-x-24 items-center justify-center text-xl text-middle font-serif text-black">
           {/*Buttons To Change Page*/}
           <div>
             <button className="hover:rounded-md hover:bg-white" 
@@ -71,12 +71,12 @@ function App() {
       ) : null}
       {page === "Software Dev Projects" ? (
         <div>
-          {/*<SoftwareDevPage></SoftwareDevPage>*/}
+          <SoftwareDevPage></SoftwareDevPage>
         </div>
       ) : null}
       {page === "Modeling Portfolio" ? (
         <div>
-          {/*<ModelingPage></ModelingPage>*/}
+          <ModelingPage></ModelingPage>
         </div>
       ) : null}
       {/*Footer*/}
