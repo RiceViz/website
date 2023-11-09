@@ -1,6 +1,6 @@
 import React from "react";
 
-const pictureData = [
+/**const pictureData = [
     {
         id: 1,
         image: require('../images/modelingpictures/Outfit1/_DSC2194.jpg')

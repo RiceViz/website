@@ -4,8 +4,8 @@ import Navbar from './Components/Navbar';
 //import CodeSpace from './Components/CodeSpace';
 import HeroPage from './images/5184157.jpg';
 import GamePage from './Pages/GamePage';
-import ModelingPage from './Pages/ModelingPage';
-import SoftwareDevelopmentPage from './Pages/SoftwareDevelopmentPage';
+//import ModelingPage from './Pages/ModelingPage';
+//import SoftwareDevelopmentPage from './Pages/SoftwareDevelopmentPage';
 
 function App() {
 
