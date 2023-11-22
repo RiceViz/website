@@ -40,21 +40,21 @@ function App() {
         <span className="relative container mx-auto px-4 pt-6 text-l flex gap-x-24 items-center justify-center text-xl text-middle font-serif text-black">
           {/*Buttons To Change Page*/}
           <div>
-            <button className="hover:rounded-md hover:bg-white" 
+            <button className="border-2 border-double border-black rounded-lg px-1 hover:rounded-md hover:bg-white" 
                     type="button" 
                     onClick={() => setPage("Game Projects")}>
                Game Projects 
             </button>
           </div>
           <div>
-          <button className="hover:rounded-md hover:bg-white" 
+          <button className="border-2 border-double border-black rounded-lg px-1 hover:rounded-md hover:bg-white" 
                     type="button" 
                     onClick={() => setPage("Software Dev Projects")}>
                Software Dev Projects 
             </button>
           </div>
           <div>
-          <button className="hover:rounded-md hover:bg-white m-4" 
+          <button className="border-2 border-double border-black rounded-lg px-1 hover:rounded-md hover:bg-white m-4" 
                     type="button" 
                     onClick={() => setPage("Modeling Portfolio")}>
                Modeling Portfolio 
@@ -79,6 +79,30 @@ function App() {
           <ModelingPage></ModelingPage>
         </div>
       ) : null}
+      <br></br>
+      {/*About Me*/}
+      <div className="border-black border-y-2 bg-slate-400 h-1/2">
+        <h1 id="about" className="text-5xl text-middle font-serif text-black text-middle pt-2">
+          About Me
+        </h1>
+        <div className="relative container flex items-center justify-center pt-6 pb-2">
+          <div>
+
+          </div>
+          <div className="mx-auto text-middle text-2xl font-serif text-black">
+            My name is Tyran Rice Jr, a junior at The University Of Delaware studying computer science.
+            I am currently a Resident Assistant at UD guiding first-year students through there first two semesters.
+            I am also highly interested in game development and programming, which is why my friend and I founded a club
+            at UD called Game Design and Development Club (GDDC). At the name suggests, it's all about
+            creating video games. I am also part of the ESports Program at UD, competitively playing Overwatch 2.
+            In the future I want to create video games as my main job or as a hobby!
+          </div>
+          <div>
+
+          </div>
+        </div>
+      </div>
+      <br></br>
       {/*Footer*/}
       <div className="border-black border-y-2 bg-gray-300 h-16">
         <Navbar></Navbar>        

@@ -20,7 +20,7 @@ function Navbar() {
 								smooth={true}
 								offset={0}
 								duration={700}								
-								className="hover:text-cyan-600"
+								className="hover:text-cyan-600 hover:font-bold hover:underline"
 								onClick={closeMenu}>
 							Home
 						</Link>
@@ -30,7 +30,7 @@ function Navbar() {
 								smooth={true}
 								offset={0}
 								duration={700}								
-								className="hover:text-cyan-600"
+								className="hover:text-cyan-600 hover:font-bold hover:underline"
 								onClick={closeMenu}>
 							Projects
 						</Link>
@@ -40,7 +40,7 @@ function Navbar() {
 								smooth={true}
 								offset={0}
 								duration={700}								
-								className="hover:text-cyan-600"
+								className="hover:text-cyan-600 hover:font-bold hover:underline"
 								onClick={closeMenu}>
 							About Me
 						</Link>
@@ -50,7 +50,7 @@ function Navbar() {
 								smooth={true}
 								offset={0}
 								duration={700}								
-								className="hover:text-cyan-600"
+								className="hover:text-cyan-600 hover:font-bold hover:underline"
 								onClick={closeMenu}>
 							Contact
 						</Link>
