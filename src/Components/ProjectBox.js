@@ -11,7 +11,7 @@ function ProjectBox({
     linktoProject
 }) {
     return (
-        <div className="relative container w-2/3 h-screen bg-neutral-400 mx-auto flex items-center justify-center border-2 border-black rounded top-0.5 left-0.5">
+        <div className="relative container w-2/3 h-screen bg-neutral-400 mx-auto flex items-center justify-center border-2 border-black rounded top-0.5 left-0.5 shadow-2xl">
             <span className="absolute text-center font-sans text-6xl top-8 left-16 w-2/5 border-y-4 border-black border-double">
                 {title}
                 <p className="text-2xl pt-2">

@@ -34,7 +34,7 @@ function App() {
         {/*<CodeSpace></CodeSpace>*/}
       </div>
       <div className="border-black border-y-2 bg-slate-400 h-36">
-        <h1 id="projects" className="text-5xl text-middle font-serif text-black text-middle pt-2">
+        <h1 id="projects" className="text-5xl  font-serif text-black text-middle pt-2 underline">
           Projects
         </h1>
         <span className="relative container mx-auto px-4 pt-6 text-l flex gap-x-24 items-center justify-center text-xl text-middle font-serif text-black">
@@ -82,25 +82,71 @@ function App() {
       <br></br>
       {/*About Me*/}
       <div className="border-black border-y-2 bg-slate-400 h-1/2">
-        <h1 id="about" className="text-5xl text-middle font-serif text-black text-middle pt-2">
+        <h1 id="about" className="text-5xl text-middle font-serif text-black text-middle pt-2 underline">
           About Me
         </h1>
-        <div className="relative container flex items-center justify-center pt-6 pb-2">
+        <div className="relative container flex items-center justify-center pb-6">
           <div>
-
+            <img src={require('./images/aboutme/AC13F2BA-2017-4502-A5D1-921BFE871821.jpeg')} alt='Picture3' className="-translate-x-8 border-black border-2 rounded"></img>
+            <img src={require('./images/aboutme/74F7CBCC-A4AF-4EC3-B910-792D86A7F825.jpeg')} alt='Picture1' className="-translate-y-4 border-black border-2 rounded"></img>
           </div>
-          <div className="mx-auto text-middle text-2xl font-serif text-black">
-            My name is Tyran Rice Jr, a junior at The University Of Delaware studying computer science.
-            I am currently a Resident Assistant at UD guiding first-year students through there first two semesters.
-            I am also highly interested in game development and programming, which is why my friend and I founded a club
-            at UD called Game Design and Development Club (GDDC). At the name suggests, it's all about
-            creating video games. I am also part of the ESports Program at UD, competitively playing Overwatch 2.
-            In the future I want to create video games as my main job or as a hobby!
+          <div className="mx-16 px-6 text-middle text-2xl font-serif text-black pt-6 border-black border-x-4 border-double">
+            My name is Tyran Rice Jr, and I am a junior studying computer science at The University of Delaware. Apart from my studies, 
+            I also serve as a Resident Assistant at UD, where I guide first-year students through their first two semesters. My passion lies 
+            in game development and programming, which led me to co-found the Game Design and Development Club (GDDC) at UD. As the name suggests, 
+            the club focuses on creating video games. Additionally, I am actively involved in the ESports Program at UD, where I compete in 
+            Overwatch 2. Looking ahead, I aspire to pursue a career in video game development, either as my primary job or as a fulfilling hobby.
           </div>
           <div>
-
+            <img src={require('./images/aboutme/5DDD2FB8-149A-4779-B9DA-10DEB0B1EF92.png')} alt='Picture4' className="-translate-x-6 border-black border-2 rounded"></img>
+            <img src={require('./images/aboutme/54AE091F-8022-48C6-8CE3-A0851C89CADE.jpeg')} alt='Picture2' className="-translate-y-8 border-black border-2 rounded"></img>
           </div>
         </div>
+      </div>
+      <br></br>
+      {/*Contact*/}
+      <h1 id="contact" className="flex text-5xl font-serif text-black text-middle underline pl-48 pt-24">
+          Contact Information
+      </h1>
+      <div className="relative container flex mx-auto items-center justify-center pt-2">
+        <div className="text-black text-middle font-serif no-underline text-xl w-3/5">
+          If you would like to see my resume or get in touch with me, please feel free to send me an email. 
+          Additionally, you can also check out my social media profiles and explore external links to view my projects.
+        </div>
+        <div className="w-2/5 columns-1 items-center text-right text-xl font-serif">
+          <div className="flex justify-end pt-4">
+            Email
+            <a href="mailto:tyranricejr@gmail.com">
+              <img src={require( './images/icons/4202011_email_gmail_mail_logo_social_icon.png')} alt='Email' width="35" height="35" className="pl-2"></img>
+            </a>
+          </div>
+          <div className="flex justify-end pt-4">
+            LinkedIn
+            <a href="https://www.linkedin.com/in/tyran-ricejr-0bb9461a7/">
+              <img src={require( './images/icons/download.png')} alt='LinkedIn' width="35" height="35" className="pl-2"></img>
+            </a>
+          </div>
+          <div className="flex justify-end pt-4">
+            GitHub
+            <a href="https://github.com/RiceViz">
+              <img src={require( './images/icons/download (1).png')} alt='GitHub' width="35" height="35" className="pl-2"></img>
+            </a>
+          </div>
+          <div className="flex justify-end pt-4">
+            Itch.io
+            <a href="https://riceviz.itch.io">
+              <img src={require( './images/icons/download (2).png')} alt='Itch.io' width="35" height="35" className="pl-2"></img>
+            </a>
+          </div>
+          <div className="flex justify-end pt-4">
+            Instagram
+            <a href="https://www.instagram.com/kingricejr/">
+              <img src={require( './images/icons/downloadInstagram.jpg')} alt=' Email' width="35" height="35" className="pl-2"></img>
+            </a>
+          </div>
+        </div>
+
+
       </div>
       <br></br>
       {/*Footer*/}
