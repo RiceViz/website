@@ -4,7 +4,7 @@ import { Link } from "react-scroll"
 
 function Navbar() {
 
-	const [click, setClick] = useState(false);
+	const [, setClick] = useState(false);
 	const closeMenu = () => setClick(false);
 
 	return (
