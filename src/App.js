@@ -108,7 +108,7 @@ function App() {
       <h1 id="contact" className="flex text-5xl font-serif text-black text-middle underline pl-48 pt-24">
           Contact Information
       </h1>
-      <div className="relative container flex mx-auto items-center justify-center pt-2">
+      <div className="relative container flex mx-auto items-center justify-center pt-2 pb-6">
         <div className="text-black text-middle font-serif no-underline text-xl w-3/5">
           If you would like to see my resume or get in touch with me, please feel free to send me an email. 
           Additionally, you can also check out my social media profiles and explore external links to view my projects.
