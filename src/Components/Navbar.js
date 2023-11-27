@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { DarkMode } from "../Components/DarkMode.js";
 import { Link } from "react-scroll"
 
 function Navbar() {
@@ -8,11 +7,11 @@ function Navbar() {
 	const closeMenu = () => setClick(false);
 
 	return (
-			<nav className="relative container mx-auto pl-6 pr-6 pt-6 font-serif text-black">
+			<nav className="relative container mx-auto p-6 font-serif text-black h-12">
 				<p className="flex item-center justify-between">
-					PLACEHOLDER
+					<img src={require('../images/RICE (1).png')} alt='Logo' width="100" height="100" className="flex flex-initial -translate-y-9"></img>
 					{/*Navigation Items*/}
-					<span className="hidden md:flex space-x-6">
+					<span className="hidden lg:flex space-x-6">
 						<Link 
 
 								to="home"
@@ -54,10 +53,24 @@ function Navbar() {
 								onClick={closeMenu}>
 							Contact
 						</Link>
-						<span class="ml-6">
-							<DarkMode></DarkMode>
-						</span>
 					</span>
+					{/*
+					<span className="lg:hidden">
+						<button type="button">
+							<img src={require('../images/icons/588a6507d06f6719692a2d15.png')} alt='Dropdown Arrow' width="30" height="30" className="hover:scale-110"></img>
+							<div className="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+								<Link
+									to="home"
+									spy={true}
+									smooth={true}
+									offset={0}
+									duration={700}								
+									className="hover:bg-gray-400"
+									onClick={closeMenu}
+								></Link>
+							</div>
+						</button>
+	</span>*/}
 				</p>
 			</nav>
 	);
