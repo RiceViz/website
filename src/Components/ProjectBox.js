@@ -26,7 +26,7 @@ function ProjectBox({
                         </p>
                     </div>
                     <div className="w-2/5">
-                        <span className="">
+                        <span className="space-y-4">
                             <img src={PIC1} alt='PIC1' width="300" height="500" className="border-black border-2 rounded"></img>
                         </span>
                     </div>
@@ -55,11 +55,13 @@ function ProjectBox({
                         </span>                   
                     </div>
                     <div className="w-2/5">
-                        <button className="text-xl text-middle font-serif text-black rounded-full font-bold border-8 border-slate-400 bg-slate-400 hover:border-white hover:border-8 hover:rounded-full hover:bg-white" 
-                            type="button" 
-                            onClick={null}>
-                            Read More
-                        </button>
+                        <a href={linktoProject}>
+                            <button className="text-xl text-middle font-serif text-black rounded-full font-bold border-8 border-slate-400 bg-slate-400 hover:border-white hover:border-8 hover:rounded-full hover:bg-white" 
+                                type="button" 
+                                onClick={null}>
+                                Read More
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>

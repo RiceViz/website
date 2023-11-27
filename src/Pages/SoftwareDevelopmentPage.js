@@ -19,7 +19,8 @@ function SoftwareDevelopmentPage() {
                 PIC1={Map}
                 teamSize="3"
                 duration="1 Day"
-                awards="1st Place ($1,600)">
+                awards="1st Place ($1,600)"
+                linktoProject="https://github.com/OneTachi/henhacks23">
             </ProjectBox>
             <br className="h-16"></br>
             <br className="h-16"></br>
