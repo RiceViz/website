@@ -1,4 +1,5 @@
 import React from "react";
+import Image1 from "../images/modelingpictures/Outfit1/_DSC2201.jpg"
 
 function ModelingPage() {
 
@@ -7,10 +8,10 @@ function ModelingPage() {
             <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
                 {/*Outfit 1*/}
                 <div>
-                    <img src={require('../images/modelingpictures/Outfit1/_DSC2201.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
+                    <img src={Image1} alt="" className="h-auto max-w-full rounded-lg"></img>
                 </div>
                 <div>
-                    <img src={require('../images/modelingpictures/Outfit1/_DSC2205.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
+                    <img src={require('../images/modelingpictures/Outfit1/Image2.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
                 </div>
                 <div>
                     <img src={require('../images/modelingpictures/Outfit1/_DSC2233.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
