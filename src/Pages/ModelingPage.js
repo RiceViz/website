@@ -1,5 +1,4 @@
 import React from "react";
-import Image1 from "../images/modelingpictures/Outfit1/_DSC2201.jpg"
 
 function ModelingPage() {
 
@@ -8,102 +7,102 @@ function ModelingPage() {
             <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
                 {/*Outfit 1*/}
                 <div>
-                    <img src={Image1} alt="" className="h-auto max-w-full rounded-lg"></img>
+                    <img src={require('../images/modelingpictures/Outfit1/Image1.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
                 </div>
                 <div>
                     <img src={require('../images/modelingpictures/Outfit1/Image2.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
                 </div>
                 <div>
-                    <img src={require('../images/modelingpictures/Outfit1/_DSC2233.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
+                    <img src={require('../images/modelingpictures/Outfit1/Image3.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
                 </div>
                 <div>
-                    <img src={require('../images/modelingpictures/Outfit1/_DSC2237.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
+                    <img src={require('../images/modelingpictures/Outfit1/Image4.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
                 </div>
                 <div className="space-y-14">
                     <div>
-                        <img src={require('../images/modelingpictures/Outfit1/_DSC2390.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
+                        <img src={require('../images/modelingpictures/Outfit1/Image6.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
                     </div>
                     <div>
-                        <img src={require('../images/modelingpictures/Outfit1/_DSC2351.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
+                        <img src={require('../images/modelingpictures/Outfit1/Image8.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
                     </div>
                 </div>
                 <div>
-                    <img src={require('../images/modelingpictures/Outfit1/_DSC2240.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
+                    <img src={require('../images/modelingpictures/Outfit1/Image5.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
                 </div>
                 <div>
-                    <img src={require('../images/modelingpictures/Outfit1/_DSC2352.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
+                    <img src={require('../images/modelingpictures/Outfit1/Image7.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
                 </div>
                 <div>
-                    <img src={require('../images/modelingpictures/Outfit1/_DSC2399.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
+                    <img src={require('../images/modelingpictures/Outfit1/Image9.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
                 </div>
                 <div>
-                    <img src={require('../images/modelingpictures/Outfit1/_DSC2412.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
+                    <img src={require('../images/modelingpictures/Outfit1/Image10.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
                 </div>
                 {/*Outfit 2*/}
                 <div>
-                    <img src={require('../images/modelingpictures/Outfit2/_DSC2504.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
+                    <img src={require('../images/modelingpictures/Outfit2/Image11.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
                 </div>
                 <div className="space-y-14">
                     <div>
-                        <img src={require('../images/modelingpictures/Outfit2/_DSC2546.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
+                        <img src={require('../images/modelingpictures/Outfit2/Image12.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
                     </div>
                     <div>
-                        <img src={require('../images/modelingpictures/Outfit2/_DSC2479.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
+                        <img src={require('../images/modelingpictures/Outfit2/Image13.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
                     </div>
                 </div>
                 <div>
-                    <img src={require('../images/modelingpictures/Outfit2/_DSC2525.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
+                    <img src={require('../images/modelingpictures/Outfit2/Image14.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
                 </div>
                 <div>
-                    <img src={require('../images/modelingpictures/Outfit2/_DSC2592.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
+                    <img src={require('../images/modelingpictures/Outfit2/Image15.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
                 </div>
                 <div>
-                    <img src={require('../images/modelingpictures/Outfit2/_DSC2594.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
+                    <img src={require('../images/modelingpictures/Outfit2/Image16.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
                 </div>
                 <div>
-                    <img src={require('../images/modelingpictures/Outfit2/_DSC2611.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
+                    <img src={require('../images/modelingpictures/Outfit2/Image17.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
                 </div>
                 <div>
-                    <img src={require('../images/modelingpictures/Outfit2/_DSC2645.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
+                    <img src={require('../images/modelingpictures/Outfit2/Image18.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
                 </div>
                 <div>
-                    <img src={require('../images/modelingpictures/Outfit2/_DSC2667.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
+                    <img src={require('../images/modelingpictures/Outfit2/Image19.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
                 </div>
                 <div>
-                    <img src={require('../images/modelingpictures/Outfit2/_DSC2679.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
+                    <img src={require('../images/modelingpictures/Outfit2/Image20.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
                 </div>
                 {/*Outfit 3*/}
                 <div>
-                    <img src={require('../images/modelingpictures/Outfit3/_DSC2761.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
+                    <img src={require('../images/modelingpictures/Outfit3/Image21.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
                 </div>
                 <div>
-                    <img src={require('../images/modelingpictures/Outfit3/_DSC2770.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
+                    <img src={require('../images/modelingpictures/Outfit3/Image22.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
                 </div>
                 <div>
-                    <img src={require('../images/modelingpictures/Outfit3/_DSC2782.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
+                    <img src={require('../images/modelingpictures/Outfit3/Image23.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
                 </div>
                 <div>
-                    <img src={require('../images/modelingpictures/Outfit3/_DSC2797.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
+                    <img src={require('../images/modelingpictures/Outfit3/Image24.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
                 </div>
                 <div className="space-y-14">
                     <div>
-                        <img src={require('../images/modelingpictures/Outfit3/_DSC2745.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
+                        <img src={require('../images/modelingpictures/Outfit3/Image25.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
                     </div>
                     <div>
-                        <img src={require('../images/modelingpictures/Outfit3/_DSC2840.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
+                        <img src={require('../images/modelingpictures/Outfit3/Image26.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
                     </div>
                 </div>
                 <div>
-                    <img src={require('../images/modelingpictures/Outfit3/_DSC2815.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
+                    <img src={require('../images/modelingpictures/Outfit3/Image27.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
                 </div>
                 <div>
-                    <img src={require('../images/modelingpictures/Outfit3/_DSC2870.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
+                    <img src={require('../images/modelingpictures/Outfit3/Image28.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
                 </div>
                 <div>
-                    <img src={require('../images/modelingpictures/Outfit3/_DSC2889.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
+                    <img src={require('../images/modelingpictures/Outfit3/Image29.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
                 </div>
                 <div>
-                    <img src={require('../images/modelingpictures/Outfit3/_DSC2905.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
+                    <img src={require('../images/modelingpictures/Outfit3/Image30.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
                 </div>
             </div>
         </div>
