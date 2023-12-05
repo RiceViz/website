@@ -7,13 +7,12 @@ function Navbar() {
 	const closeMenu = () => setClick(false);
 
 	return (
-			<nav className="relative container mx-auto p-6 font-serif text-black h-12">
+			<nav className="relative container mx-auto p-6 font-serif text-black h-12 text-sm md:text-lg">
 				<p className="flex item-center justify-between">
 					<img src={require('../images/RICE (1).png')} alt='Logo' width="100" height="100" className="flex flex-initial -translate-y-9"></img>
 					{/*Navigation Items*/}
-					<span className="hidden lg:flex space-x-6">
+					<span className="flex space-x-2 md:space-x-6">
 						<Link 
-
 								to="home"
 								spy={true}
 								smooth={true}
@@ -70,7 +69,7 @@ function Navbar() {
 								></Link>
 							</div>
 						</button>
-	</span>*/}
+					</span>*/}
 				</p>
 			</nav>
 	);

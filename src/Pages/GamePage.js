@@ -10,7 +10,7 @@ function GameDesignPage() {
             <br className="h-16"></br>
             <ProjectBox 
                 title="Taro Mama" 
-                description="Children's Short Educational Web Game"
+                description="Short Educational Web Game"
                 text="Taro Mama is a single-player game that was created during a study abroad trip hosted by the University of Delaware. 
                 The main objective of the game is to teach elementary school students, specifically 3rd to 5th graders, the fundamentals of 
                 algorithms, sequencing, and scaling. The game features unlimited time and rewards players with points for completing algorithms 

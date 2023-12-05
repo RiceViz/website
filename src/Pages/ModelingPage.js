@@ -18,7 +18,7 @@ function ModelingPage() {
                 <div>
                     <img src={require('../images/modelingpictures/Outfit1/Image4.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
                 </div>
-                <div className="space-y-14">
+                <div className="space-y-6 md:space-y-14">
                     <div>
                         <img src={require('../images/modelingpictures/Outfit1/Image6.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
                     </div>
@@ -42,7 +42,7 @@ function ModelingPage() {
                 <div>
                     <img src={require('../images/modelingpictures/Outfit2/Image11.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
                 </div>
-                <div className="space-y-14">
+                <div className="space-y-6 md:space-y-14">
                     <div>
                         <img src={require('../images/modelingpictures/Outfit2/Image12.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
                     </div>
@@ -84,7 +84,7 @@ function ModelingPage() {
                 <div>
                     <img src={require('../images/modelingpictures/Outfit3/Image24.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
                 </div>
-                <div className="space-y-14">
+                <div className="space-y-6 md:space-y-14">
                     <div>
                         <img src={require('../images/modelingpictures/Outfit3/Image25.jpg')} alt="" className="h-auto max-w-full rounded-lg"></img>
                     </div>
