@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.234dfaab.css",
-    "main.js": "/website/static/js/main.9a11111e.js",
+    "main.css": "/website/static/css/main.e83af944.css",
+    "main.js": "/website/static/js/main.834e3b0c.js",
     "static/js/787.71e672d5.chunk.js": "/website/static/js/787.71e672d5.chunk.js",
     "static/media/Image10.jpg": "/website/static/media/Image10.dcc065c15bb706847419.jpg",
     "static/media/Image9.jpg": "/website/static/media/Image9.09b4b0418a80c2441563.jpg",
@@ -38,18 +38,20 @@
     "static/media/AC13F2BA-2017-4502-A5D1-921BFE871821.jpeg": "/website/static/media/AC13F2BA-2017-4502-A5D1-921BFE871821.f1f1250341bc2dad71a2.jpeg",
     "static/media/TaroMama.png": "/website/static/media/TaroMama.752e5c717bc5611f2802.png",
     "static/media/map.png": "/website/static/media/map.6b462d81872713894dff.png",
+    "static/media/soccer_manager.png": "/website/static/media/soccer_manager.c3e96fcc61665a2b227a.png",
     "static/media/5DDD2FB8-149A-4779-B9DA-10DEB0B1EF92.png": "/website/static/media/5DDD2FB8-149A-4779-B9DA-10DEB0B1EF92.ad3ab501599f099fb695.png",
+    "static/media/DOD.png": "/website/static/media/DOD.88b013c08b4b88115cf8.png",
     "static/media/5184157.jpg": "/website/static/media/5184157.16f477de073e3dc3eb45.jpg",
     "static/media/IMG_5692.jpeg": "/website/static/media/IMG_5692.fa4d1c84a838fe0e14aa.jpeg",
     "static/media/RICE (1).png": "/website/static/media/RICE (1).513866688969506e0068.png",
     "static/media/4202011_email_gmail_mail_logo_social_icon.png": "/website/static/media/4202011_email_gmail_mail_logo_social_icon.8fc21969c09d93565c9e.png",
     "index.html": "/website/index.html",
-    "main.234dfaab.css.map": "/website/static/css/main.234dfaab.css.map",
-    "main.9a11111e.js.map": "/website/static/js/main.9a11111e.js.map",
+    "main.e83af944.css.map": "/website/static/css/main.e83af944.css.map",
+    "main.834e3b0c.js.map": "/website/static/js/main.834e3b0c.js.map",
     "787.71e672d5.chunk.js.map": "/website/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.234dfaab.css",
-    "static/js/main.9a11111e.js"
+    "static/css/main.e83af944.css",
+    "static/js/main.834e3b0c.js"
   ]
 }
